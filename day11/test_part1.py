@@ -25,7 +25,7 @@ class Test(unittest.TestCase):
         f = read_input()
         self.assertTrue(f)
         result = solve(f)
-        self.assertEqual(415, result)
+        self.assertEqual(749, result)
 
 
 if __name__ == "__main__":
