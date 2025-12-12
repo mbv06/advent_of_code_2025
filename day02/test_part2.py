@@ -29,7 +29,6 @@ class TestIdValidation(unittest.TestCase):
         self.assertFalse(is_invalid("101"))
         self.assertFalse(is_invalid("222220"))
         self.assertFalse(is_invalid("104510"))
-        self.assertFalse(part2y.is_invalid("104510"))
         self.assertFalse(is_invalid("422468141"))
         self.assertFalse(is_invalid("9797977797"))
 
